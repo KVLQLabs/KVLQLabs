@@ -1,16 +1,24 @@
-## Hi there 👋
+# KVLQ Labs
 
-<!--
-**KVLQLabs/KVLQLabs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Privacy-first software repair for broken repositories.
 
-Here are some ideas to get you started:
+We focus on small, tested fixes that unblock real projects:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- failing builds and CI pipelines
+- TypeScript / Python bug fixes
+- dependency and package-manager cleanup
+- test failures and flaky test diagnosis
+- Docker and deployment blockers
+- repo triage with clear reproduction notes
+
+## How we work
+
+1. Reproduce or identify the failure.
+2. Inspect risky scripts before running project code.
+3. Make the smallest useful fix.
+4. Run the relevant tests/build checks.
+5. Document exactly what changed and how it was verified.
+
+## Current focus
+
+Building public proof through concise, well-tested fixes and open-source contributions.
